@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Fine art and Landscape Photography</title>
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Open+Sans:400,300' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" type="text/css" href="css/layout.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="mainContainer">
+
+            <div id="header">
+                <img src="images/4_chief.jpg" height="274" width="980" />
+                <h1>Fine art and Landscape Photography Prints</h1>
+            </div>
+
+            <div id="menu">
+                <ul>
+                    <li><a href="Default.aspx">Home</a></li>
+                    <li><a href="Catalogue.aspx">Catalogue</a></li>
+                    <li><a href="About.aspx">About</a></li>
+                    <li><a href="Contact.aspx">Contact</a></li>
+                    <li><a href="Terms.aspx">Terms of Use</a></li>
+                    <li><a href="Privacy.aspx">Privacy Policy</a></li>
+                    <li><a href="Sales.aspx">Return Policy</a></li>
+                    <li><a href="faq.aspx">FAQ</a></li>
+                    <li><a href="Cart.aspx">Cart</a></li>
+                </ul>
+            </div>
+
+            <div id="sidebar">
+                
+                <asp:ContentPlaceHolder ID="cpSidebar" runat="server">
+                    <a href="Cart.aspx">Go to your Cart</a>
+                </asp:ContentPlaceHolder>
+            </div>
+
+            <div id="content">
+                <asp:ContentPlaceHolder ID="cpContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+
+            <div id="footer">
+               <ul>
+                    <li><a href="Default.aspx">Home</a></li>
+                    <li><a href="Catalogue.aspx">Catalogue</a></li>
+                    <li><a href="About.aspx">About</a></li>
+                    <li><a href="Contact.aspx">Contact</a></li>
+                    <li><a href="Terms.aspx">Terms of Use</a></li>
+                    <li><a href="Privacy.aspx">Privacy Policy</a></li>
+                    <li><a href="Sales.aspx">Return Policy</a></li>
+                    <li><a href="faq.aspx">FAQ</a></li>
+                    <li><a href="Cart.aspx">Cart</a></li>
+                </ul>                
+                    
+                <p>&copy; Copyright March Seven Photography 2013 All rights reserved.<a href="mailto:m_barry6@fanshaweonline.ca">   Email for more info</a></p>
+
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>

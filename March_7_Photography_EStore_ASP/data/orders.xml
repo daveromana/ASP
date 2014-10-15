@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<orders>
+  <order>
+    <orderSubmitted>2013-06-19 10:21:56 PM</orderSubmitted>
+    <name>Mike</name>
+    <address>erWEREF11</address>
+    <email>mike@m7p.ca</email>
+    <orderItems>
+    </orderItems>
+    <grandTotal>0</grandTotal>
+  </order>
+  <order>
+    <orderSubmitted>2013-06-20 1:33:36 AM</orderSubmitted>
+    <name>Mike</name>
+    <address>12 nnn</address>
+    <email>mike@m7p.ca</email>
+    <orderItems>
+      <item>
+        <quantity>1</quantity>
+        <productName>Vancouver Harbour</productName>
+      </item>
+    </orderItems>
+    <grandTotal>677.9887</grandTotal>
+  </order>
+</orders>

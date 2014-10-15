@@ -1,0 +1,220 @@
+﻿html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	text-align: left;
+	color: #5c5c5c;
+	background: #7493CF;
+	font-family: 'Open Sans', sans-serif;
+    line-height: 2;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font: 40px Impact;
+    text-align: center;
+    color: #299025;
+}
+
+ h1 a {
+    color: #299025;
+    text-decoration: none;
+}
+
+ h1 a:hover {
+    color: #7493CF;
+ }
+
+.faq h1 {
+    font: 40px Impact;
+    color: #299025;
+    text-align: left;
+}
+
+#mainContainer {
+	width: 980px;
+	margin: auto;
+	text-align: left;
+    background: #ffffff;
+}
+
+
+/* Main Navigation */
+
+#menu ul {
+    text-align: center;
+    background: #299025;
+    padding: 10px 0px 10px 0px;
+}
+
+#menu {
+    font: 15px Impact;
+    background: #299025;
+}
+    
+#menu li {
+    display: inline;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    letter-spacing: 0.25px;
+   
+}
+
+#menu li a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+#menu li a:hover {
+    color: #7493CF;
+}
+
+.thumbs {
+    padding: 20px;
+    outline: none;
+}
+
+a img {outline : none;}
+
+.buybutton {
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #299025;
+    border: 1px solid #299025;
+    margin-left: 10px;
+    background-color: #fff;
+}
+
+.catsbarlink {
+    padding: 10px;
+    border: 1px solid #299025;
+}
+
+.mikemail {
+    text-decoration: none;
+    color: #299025;
+}
+
+ a.mikemail:hover {
+    color: #7493CF;
+}
+
+.defhead {
+    font-size: 25px;
+    color: #7493CF;
+    line-height: 1.2;
+    padding: 10px;
+}
+
+.name a {
+    text-decoration: none;
+    color: #299025;
+}
+
+.form {
+    color: #5c5c5c;
+    width: 300px;
+    font-size: 25px;
+    line-height: 20px;
+    padding: 10px;
+}
+
+#sidebar {
+	float: right;
+    width: 25%;
+    padding: 10px;
+}
+
+#sidebar ul{
+    line-height: 1.5;
+}
+
+#content {
+	margin-right: 25%;
+    margin-left: 10px;
+    padding: 10px;
+    background:#fff;
+    text-align: left;
+}
+
+.contact {
+    border: 1px solid #ddd;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.contact h1 {
+    text-align: left;
+    }
+
+
+.catalogStyle{
+    border: none;
+    
+}
+
+
+#footer {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+	clear: both;
+	height: 66px;
+    background: #299025;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+#footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ #footer a:hover {
+    color: #7493CF;
+    padding-bottom: 20px;
+}
+
+footer ul {
+    padding-bottom: 20px;
+}
+
+#footer li {
+    display: inline;
+    padding-right: 15px;
+}
+
+#footer li a {
+   
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+}
+
+.col {
+    color: black;
+    background-color: #7493CF;
+}
+
+
+.col2 {
+    background-color: aliceblue;
+}
+
+.col3 {
+    background-color: azure;
+}
+
+.error {
+   color: red;
+}
+
